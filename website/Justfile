@@ -1,0 +1,7 @@
+# builds the tailwind css
+build:
+    npx tailwindcss -i ./src/input.css -o ./src/output.css --minify
+
+# builds the tailwind css and watches for changes
+watch:
+    npx tailwindcss -i ./src/input.css -o ./src/output.css --minify --watch
